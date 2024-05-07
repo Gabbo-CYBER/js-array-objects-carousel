@@ -48,4 +48,5 @@ document.getElementById("btnNext").addEventListener("click", function () {
     slides[prossimaSlide].classList.add("active");
 
     console.log(`Sposto la selezione da ${immagineAttualmenteAttiva} a ${prossimaSlide}`);
+    
 });
